@@ -6,15 +6,15 @@
 
 ## Development&Build
 - 除非特殊声明或手动升级，此项目默认使用的.NET SDK版本为11.0，若发现.csproj内的TargetFramework与此项不符，以TargetFramework声明的版本为准
-- 开始任务前先拉取远程仓库同步改动
+- 开始任务前先使用git pull拉取远程仓库同步改动
 - 若可行，优先使用dotnet build等相关指令进行构建测试，若不可用再考虑使用msbuild
 - 若可行，优先使用NuGet管理项目引用的外部软件包
 
 ## Code Specification
 - summary注释块应优先使用中文
 - 非必要避免使用unsafe
-- 尽量使类库支持AOT
-- doc应使用中文编写
+- 尽量使类库支持nativeAOT
+- Markdown doc应使用中文编写
 
 ## Project Map
 docs/* - 文档集合，统一存放不同模块的doc<br>
