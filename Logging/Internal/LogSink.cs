@@ -115,7 +115,7 @@ internal sealed class LogSink : IDisposable
             }
             catch (IOException) when (File.Exists(path))
             {
-                // Another process created this number between the check and CreateNew.
+                // 在检查与创建文件之间，有其他进程创建了相同序号的文件。
             }
         }
     }
