@@ -16,6 +16,8 @@ A universal library of common function modules in .NET C#
 ```bash
 git submodule add https://github.com/N4RNACACC/NARLibs.NET.git
 ```
+## 文档
+项目包含的类库模块文档见[docs](docs)文件夹
 
 ## 引用
 第三方NuGet包或其他形式引用详见[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
