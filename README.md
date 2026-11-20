@@ -1,7 +1,11 @@
+
+
 # NARLibs.NET (N4RLibs.NET)
 
 个人.NET C#通用库<br>
 A universal library of common function modules in .NET C#
+
+![Static Badge](https://img.shields.io/badge/.NET-11.0-brightgreen?style=for-the-badge&labelColor=%23512BD4)
 
 >[!IMPORTANT]
 >此通用库为自用通用库，不对非 N4RNAC 本人的项目保证可用性
@@ -11,6 +15,9 @@ A universal library of common function modules in .NET C#
 >此外，此通用库的**部分**（或**整个模块**）会使用AI生成的代码
 
 ## 使用
+>[!NOTE]先决条件
+>确保你需要引用的项目所使用的.NET SDK版本 >= 11.0
+
 >[!NOTE]
 >推荐使用 Git Submodule 的方式引用
 ```bash
