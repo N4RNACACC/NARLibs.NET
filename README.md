@@ -15,8 +15,9 @@ A universal library of common function modules in .NET C#
 >此外，此通用库的**部分**（或**整个模块**）会使用AI生成的代码
 
 ## 使用
->[!NOTE]先决条件
->确保你需要引用的项目所使用的.NET SDK版本 >= 11.0
+>[!NOTE]
+>请确保你需要引用的项目所使用的.NET SDK版本 >= 11.0
+
 
 >[!NOTE]
 >推荐使用 Git Submodule 的方式引用
