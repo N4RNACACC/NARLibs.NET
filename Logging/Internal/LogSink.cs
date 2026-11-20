@@ -64,7 +64,7 @@ internal sealed class LogSink : IDisposable
     private static string FormatLine(DateTime timestamp, LogLevel level, string message)
     {
         var time = timestamp.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture);
-        return $"[{time}][{GetLevelText(level)}] ({message})";
+        return $"[{time}][{GetLevelText(level)}] {message}";
     }
 
     private static string GetLevelText(LogLevel level) => level switch
